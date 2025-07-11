@@ -1,0 +1,37 @@
+# Power Face Recognition SDK (PowerSDK)
+
+**PowerSDK** is a standalone facial recognition SDK for Android that performs **on-device face matching** and returns the **nickname** of detected individuals from a local face database.
+
+The SDK is fully self-contained and operates **without an internet connection** or developer account — however, it is **read-only**. You can recognize known faces but **cannot register new faces** into the database without a cloud integration via `dev.secureid.ro`.
+
+---
+
+## ⚙️ What PowerSDK Does
+
+- Detects and recognizes faces from the camera preview
+- Matches against a preloaded `.dat` face database
+- Returns the **nickname** of each recognized individual
+- Works completely **offline** (for read-only usage)
+
+---
+
+## 📥 Face Database Requirement
+
+Before using PowerSDK, download the face database file:
+
+📦 Romanian market database: https://powerpaysecure.net/devices/1-facedist.dat
+For use in other countries, contact us to receive a region-specific `.dat` file.  
+> This file is required to enable recognition of known users.
+
+---
+
+## 🔐 Developer Account (Optional)
+
+You **do not need an account** to use the SDK for offline recognition.  
+However, to:
+- Register new faces
+- Manage face identities
+- Synchronize cloud-linked templates
+
+You’ll need a developer account at:
+https://dev.secureid.ro
